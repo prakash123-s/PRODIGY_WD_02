@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+:root{
+    --color1 : #E3FDFD;
+    --color2 : #CBF1F5;
+    --color3 : #A6E3E9;
+    --color4 : #71C9CE;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--color1);
+    text-align: center;
+    color : var(--color4);
+}
+
+.watch-container{
+    background-color: var(--color4);
+    border-radius: 10px;
+    border : none;
+    width: 30%;
+    margin : 40px auto ;
+    padding : 40px;
+    font-size: 2em;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 4px var(--color4);
+}
+
+.clock{
+    margin-bottom: 30px;
+    width: 100%;
+    color :  var(--color1)
+}
+
+.watch-container #buttons button{
+    background-color: var(--color1);
+    border-radius: 5px;
+    border : none;
+    color :var(--color4);
+    padding : 10px 20px;
+    font-size : .6em;
+    box-shadow: 1px 1px 4px gray;
+    border : 2px solid var(--color1)
+}
+
+.watch-container #buttons button:hover{
+    color : var(--color1);
+    background-color: var(--color4);
+    box-shadow: none;
+    border : 2px solid var(--color1);
+    box-sizing: border-box;
+}
+.watch-container .row1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+#lap{
+    width: 100%;
+}
+
+#laps{
+    width: 30%;
+    margin: auto;
+    font-size: 2em;
+    background-color: var(--color1);
+    border-radius: 10px;
+    box-sizing: border-box;
+    height: max-content;
+    box-shadow: 0 0 4px var(--color4);
+}
+
+#laps .slap{
+    text-align: center;
+    border-bottom: 3px solid var(--color4);
+    margin-bottom: 10px;
+}
